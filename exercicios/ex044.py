@@ -18,6 +18,8 @@ elif formadePagamento == '3':
 elif formadePagamento == '4':
     valorAtualizado = valoraPagar + (valoraPagar * 0.2)
     print('Pague R${}'.format(valorAtualizado))
+else:
+    print('Opção de pagamento invalida. Tente novamente!')
 
 print('Agradecemos por comprar conosco, volte sempre!')
 

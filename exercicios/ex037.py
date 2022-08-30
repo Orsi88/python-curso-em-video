@@ -8,13 +8,13 @@ baseDeConversão = str(input('Qual será a base de conversão? '))
 
 if baseDeConversão == '1':
     bina = str(bin(numeroInteiro))
-    print(bina)
+    print(bina[2:])
 elif baseDeConversão == '2':
     octa = str(oct(numeroInteiro))
-    print(octa)
+    print(octa[2:])
 elif baseDeConversão == '3':
     exa = str(hex(numeroInteiro))
-    print(exa)
+    print(exa[2:])
 else:
     print('Opção invalida!')
 
