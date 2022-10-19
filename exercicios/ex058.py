@@ -2,11 +2,11 @@ from random import randint
 from time import sleep
 
 cont = 0
-computador = randint(0, 5)
+computador = randint(0, 10)
 jogador = 9999
 
 print('-=-' * 20)
-print('Vou pensar em um número entre 0 e 5. Tente adivinhar...')
+print('Vou pensar em um número entre 0 e 10. Tente adivinhar...')
 print('-=-' * 20)
 
 while jogador != computador:
